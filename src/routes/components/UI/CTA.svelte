@@ -115,4 +115,12 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
   }
+  @media screen and (max-width: 640px) {
+    article {
+      max-width: 80%;
+    }
+    figure {
+      display: none;
+    }
+  }
 </style>

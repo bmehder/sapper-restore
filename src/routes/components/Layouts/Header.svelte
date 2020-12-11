@@ -115,7 +115,7 @@
   }
   .hamburger {
     font-size: 3em;
-    padding-right: 0.5em;
+    /* padding-right: 0.5em; */
   }
   .hamburger,
   nav.mobile {
