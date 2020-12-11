@@ -96,10 +96,7 @@
       </Section>
 
       <Section boxed>
-        <Hero
-          background="https://images.unsplash.com/photo-1546805220-8638b5ff0d42?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80"
-          height="400px"
-          padding="0 0 2em 0">
+        <Hero background="snow.jpg" height="400px" padding="0 0 2em 0">
           <CTA
             heading="We travel to you!"
             subtitle="To schedule an on-site patient evaluation appointment, please call (303) 216-2661."

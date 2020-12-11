@@ -8,7 +8,7 @@
 </script>
 
 <div transition:fade={{ easing: quintOut }}>
-  <Section boxed background="white" padding="0.5em 2em 0em">
+  <Section boxed background="white" padding="0.5em 0em 0em">
     <Flex direction="column" justify="center" align="center">
       <CTA
         heading="Schedule an Appointment"
