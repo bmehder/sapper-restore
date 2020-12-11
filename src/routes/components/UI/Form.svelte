@@ -79,6 +79,13 @@
     border: none;
     font-weight: bold;
   }
+  button:hover {
+    background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.24)
+    ) !important;
+  }
   form div {
     display: flex;
     align-items: center;
@@ -93,7 +100,7 @@
   }
   @media screen and (max-width: 640px) {
     form {
-      width: 80%;
+      width: 90%;
     }
   }
 </style>

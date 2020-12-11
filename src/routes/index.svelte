@@ -7,6 +7,10 @@
   import CTA from "./components/UI/CTA.svelte";
 </script>
 
+<svelte:head>
+  <title>Restore Medical Group | Golden, CO</title>
+</svelte:head>
+
 <div class="wrapper">
   <main>
     <div transition:fade={{ easing: quintOut }}>

@@ -21,6 +21,10 @@
   };
 </script>
 
+<svelte:head>
+  <title>Case Studies | Restore Medical Group | Golden, CO</title>
+</svelte:head>
+
 {#if access}
   <div transition:fade={{ easing: quintOut }}>
     <Section boxed background="white" padding="0.5em 2em 4em">

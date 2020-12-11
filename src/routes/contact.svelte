@@ -7,6 +7,10 @@
   import Form from "./components/UI/Form.svelte";
 </script>
 
+<svelte:head>
+  <title>Contact Us | Restore Medical Group | Golden, CO</title>
+</svelte:head>
+
 <div transition:fade={{ easing: quintOut }}>
   <Section boxed background="white" padding="0.5em 0em 0em">
     <Flex direction="column" justify="center" align="center">
