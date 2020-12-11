@@ -10,10 +10,12 @@
   {#if title}
     <h3 style="color:{titleColor};">{title}</h3>
   {/if}
-  <form>
-    <input type="text" placeholder="Enter name..." />
-    <input type="email" placeholder="Enter email..." />
-    <input type="tel" placeholder="Enter phone..." />
+  <form
+    action="https://getform.io/f/ed1f57ed-9359-4bdf-91ef-2b6fd39a2dc1"
+    method="POST">
+    <input name="name" type="text" placeholder="Enter name..." required />
+    <input name="email" type="email" placeholder="Enter email..." required />
+    <input name="phone" type="tel" placeholder="Enter phone..." required />
     <p for="contact-type">I am a:</p>
     <div>
       <input
@@ -35,8 +37,9 @@
       <input type="radio" name="contact-type" value="Patient" id="patient" />
       <label for="contact-type">Patient</label>
     </div>
-    <textarea placeholder="Enter message..." />
+    <textarea name="message" placeholder="Enter message..." />
     <button
+      type="submit"
       style="background:{buttonColor};color:{buttonTextColor};">{buttonText}</button>
   </form>
 </div>
