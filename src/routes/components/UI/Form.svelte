@@ -91,4 +91,9 @@
     margin-top: 1em;
     margin-bottom: 0.25em;
   }
+  @media screen and (max-width: 640px) {
+    form {
+      width: 80%;
+    }
+  }
 </style>
