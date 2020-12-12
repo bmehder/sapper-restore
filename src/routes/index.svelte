@@ -49,7 +49,7 @@
           </article>
           <figure>
             <img
-              src="/images/wound-care-restore-medical-group.png"
+              src="/images/wound-care-restore-medical-group.jpg"
               alt="Wound Care - Restore Medical Group" />
           </figure>
         </Grid>
