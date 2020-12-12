@@ -109,7 +109,7 @@
             subtitle="To schedule an on-site patient evaluation appointment, please call (303) 216-2661."
             href="tel:3032162661"
             buttonText="Call Today!"
-            src="/images/transportation-restore-medical-group.png" />
+            src="/images/transportation-restore-medical-group.jpg" />
         </Hero>
       </Section>
     </div>

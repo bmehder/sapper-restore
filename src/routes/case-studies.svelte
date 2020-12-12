@@ -33,7 +33,7 @@
         <div>
           <h5 class="before-after">Before</h5>
           <div>
-            <img src="/images/image4.png" alt="before" />
+            <img src="/images/image4.jpg" alt="before" />
             <aside>
               6.5CM wide persistent wound unable to be healed with traditional
               treatments.
@@ -43,7 +43,7 @@
         <div>
           <h5 class="before-after">After</h5>
           <div>
-            <img src="/images/image9.png" alt="after" />
+            <img src="/images/image9.jpg" alt="after" />
             <aside>
               After 7 weeks of treatment using Restore’s Wound Care Protocol.
             </aside>
@@ -54,14 +54,14 @@
         <div>
           <h5 class="before-after">Before</h5>
           <div>
-            <img src="/images/image1.png" alt="before" />
+            <img src="/images/image1.jpg" alt="before" />
             <aside>Picture taken 2 weeks into treatment</aside>
           </div>
         </div>
         <div>
           <h5 class="before-after">After</h5>
           <div>
-            <img src="/images/image7.png" alt="after" />
+            <img src="/images/image7.jpg" alt="after" />
             <aside>Picture taken 3-4 weeks into treatment</aside>
           </div>
         </div>
@@ -70,14 +70,14 @@
         <div>
           <h5 class="before-after">Before</h5>
           <div>
-            <img src="/images/image11.png" alt="before" />
+            <img src="/images/image11.jpg" alt="before" />
             <aside>Two year old sacrum wound starting at 5.5CM</aside>
           </div>
         </div>
         <div>
           <h5 class="before-after">After</h5>
           <div>
-            <img src="/images/image3.png" alt="after" />
+            <img src="/images/image3.jpg" alt="after" />
             <aside>Reduced to 3.5CM in 4 weeks. Still in treatment.</aside>
           </div>
         </div>
@@ -86,7 +86,7 @@
         <div>
           <h5 class="before-after">Before</h5>
           <div>
-            <img src="/images/image6.png" alt="before" />
+            <img src="/images/image6.jpg" alt="before" />
             <aside>
               Two wounds being simultaneously treated on the left gluteus.
               Persistent wound for nearly 6 months unable to be treated with
@@ -99,7 +99,7 @@
         <div>
           <h5 class="before-after">After</h5>
           <div>
-            <img src="/images/image12.png" alt="after" />
+            <img src="/images/image12.jpg" alt="after" />
             <aside>
               The second picture shows the arrow is pointing to that same wound
               within several weeks of treatment. Estimated to be nearly closed
