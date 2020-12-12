@@ -75,7 +75,7 @@
       </Section>
 
       <Section background="white" padding="0.5em 2em 4em" boxed>
-        <h4>Identifying Patients</h4>
+        <h4 style="margin:0;">Identifying Patients</h4>
         <Grid columns="1fr 1fr" gap="2em">
           <div>
             <p>
