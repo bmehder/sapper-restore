@@ -114,14 +114,10 @@
 {:else}
   <Flex direction="column" justify="center" align="center">
     <form on:submit|preventDefault={handleSubmit}>
-      <p><em>The password is "123456"</em></p>
       <input type="text" bind:value placeholder="Enter Password..." />
       <button>Submit</button>
       {#if showError}
-        <p>
-          Oi! That's not the right password. What are you trying to pull here,
-          buddy?
-        </p>
+        <p>Incorrect password.</p>
       {/if}
     </form>
   </Flex>

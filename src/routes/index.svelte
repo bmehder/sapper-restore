@@ -9,6 +9,9 @@
 </script>
 
 <svelte:head>
+  <meta
+    name="description"
+    content="Restore Medical Group has developed an insurance backed protocol for treating recalcitrant wounds that prove difficult to heal using conventional wound care methods." />
   <title>Restore Medical Group | Golden, CO</title>
 </svelte:head>
 

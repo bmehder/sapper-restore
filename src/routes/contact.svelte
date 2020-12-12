@@ -8,6 +8,10 @@
 </script>
 
 <svelte:head>
+  <meta
+    name="description"
+    content="Contact Restore Medical Group - 400 Indian Street, Suite 280
+Golden, CO 80401 - Schedule An Appointment at (303) 216-2661" />
   <title>Contact Us | Restore Medical Group | Golden, CO</title>
 </svelte:head>
 
