@@ -84,8 +84,8 @@
             </p>
             <figure>
               <img
-                src="/images/identifying-patients.png"
-                alt="Restore Medical Group" />
+                src="/images/qualified-patients.jpg"
+                alt="Qualified Patients - Restore Medical Group" />
             </figure>
           </div>
           <article>
