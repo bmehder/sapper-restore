@@ -100,7 +100,7 @@
     height: 250px;
   }
   img {
-    width: auto;
+    width: 250px;
     height: 100%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;

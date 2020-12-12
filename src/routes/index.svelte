@@ -3,6 +3,7 @@
   import { quintOut } from "svelte/easing";
   import Section from "./components/Layouts/Section.svelte";
   import Grid from "./components/Layouts/Grid.svelte";
+  import Flex from "./components/Layouts/Flex.svelte";
   import Hero from "./components/UI/Hero.svelte";
   import CTA from "./components/UI/CTA.svelte";
 </script>
@@ -17,7 +18,7 @@
       <Section boxed background="white">
         <img
           class="no-shadow"
-          src="/header-restore-medical-group.jpg"
+          src="/images/header-restore-medical-group.jpg"
           alt="Header - Restore Medical Group" />
       </Section>
       <Section background="white" padding="0.5em 2em 0em" boxed>
@@ -48,8 +49,8 @@
           </article>
           <figure>
             <img
-              src="https://source.unsplash.com/random/300x200?1"
-              alt="Restore Medical Group" />
+              src="/images/wound-care-restore-medical-group.png"
+              alt="Wound Care - Restore Medical Group" />
           </figure>
         </Grid>
       </Section>
@@ -61,11 +62,18 @@
       <Section background="white" padding="0.5em 2em 4em" boxed>
         <h4>Identifying Patients</h4>
         <Grid columns="1fr 1fr" gap="2em">
-          <article>
+          <div>
             <p>
               When evaluating patients for this protocol please consider the
               following before recommending care.
             </p>
+            <figure>
+              <img
+                src="/images/identifying-patients.png"
+                alt="Restore Medical Group" />
+            </figure>
+          </div>
+          <article>
             <p>
               When evaluating patients referral please consider the following
               contraindications:
@@ -91,23 +99,17 @@
               care provider.
             </p>
           </article>
-
-          <figure>
-            <img
-              src="https://source.unsplash.com/random/300x200?2"
-              alt="Restore Medical Group" />
-          </figure>
         </Grid>
       </Section>
 
       <Section boxed>
-        <Hero background="snow.jpg" height="400px" padding="0 0 2em 0">
+        <Hero background="/images/snow.jpg" height="400px" padding="0 0 2em 0">
           <CTA
             heading="We travel to you!"
             subtitle="To schedule an on-site patient evaluation appointment, please call (303) 216-2661."
             href="tel:3032162661"
             buttonText="Call Today!"
-            src="https://source.unsplash.com/random/400x400?10" />
+            src="/images/transportation-restore-medical-group.png" />
         </Hero>
       </Section>
     </div>
@@ -121,6 +123,10 @@
     object-fit: cover;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  }
+  figure {
+    width: 400px;
+    height: auto;
   }
   .no-shadow {
     box-shadow: none;

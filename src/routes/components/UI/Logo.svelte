@@ -9,10 +9,12 @@
 <style>
   #logo {
     display: block;
-    padding: 0;
+    padding: 5px 0 0 0;
+    background: white;
     /* font-size: 2.5rem; */
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
     text-decoration: none;
   }
 </style>

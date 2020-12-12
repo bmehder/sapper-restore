@@ -19,7 +19,7 @@
         subtitle="<big><strong>(303) 216-2661</strong></big>"
         href="tel:3032162661"
         buttonText="Call Today!"
-        src="https://source.unsplash.com/random/400x400?10" />
+        src="/images/schedule-an-appointment-restore-medical-group.jpg" />
 
       <p style="margin-top: 1em;text-align:center;">
         <big><strong>Restore Medical Group</strong></big><br />
