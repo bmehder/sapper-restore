@@ -13,6 +13,18 @@
     name="description"
     content="Restore Medical Group has developed an insurance backed protocol for treating recalcitrant wounds that prove difficult to heal using conventional wound care methods." />
   <title>Restore Medical Group | Golden, CO</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6GC694DG4">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-E6GC694DG4");
+  </script>
 </svelte:head>
 
 <div class="wrapper">
