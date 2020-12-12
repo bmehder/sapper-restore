@@ -130,6 +130,7 @@
   figure {
     width: 400px;
     height: auto;
+    margin-bottom: 1em;
   }
   .no-shadow {
     box-shadow: none;
