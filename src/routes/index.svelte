@@ -131,6 +131,9 @@
   .no-shadow {
     box-shadow: none;
   }
-  @media (min-width: 640px) {
+  @media (max-width: 640px) {
+    figure {
+      width: 300px;
+    }
   }
 </style>

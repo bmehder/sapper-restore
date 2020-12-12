@@ -148,6 +148,6 @@
   }
   form {
     margin-top: 4em;
-    width: 400px;
+    width: 300px;
   }
 </style>

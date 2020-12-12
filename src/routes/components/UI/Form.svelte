@@ -100,7 +100,7 @@
   }
   @media screen and (max-width: 640px) {
     form {
-      width: 90%;
+      width: 100%;
     }
   }
 </style>
