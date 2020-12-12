@@ -21,7 +21,7 @@
         buttonText="Call Today!"
         src="https://source.unsplash.com/random/400x400?10" />
 
-      <p style="text-align:center;">
+      <p style="margin-top: 1em;text-align:center;">
         <big><strong>Restore Medical Group</strong></big><br />
         is a DBA of<br />
         Restore Osteo of Colorado, LLC<br />

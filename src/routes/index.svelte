@@ -16,6 +16,7 @@
     <div transition:fade={{ easing: quintOut }}>
       <Section boxed background="white">
         <img
+          class="no-shadow"
           src="/header-restore-medical-group.jpg"
           alt="Header - Restore Medical Group" />
       </Section>
@@ -120,6 +121,9 @@
     object-fit: cover;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  }
+  .no-shadow {
+    box-shadow: none;
   }
   @media (min-width: 640px) {
   }
