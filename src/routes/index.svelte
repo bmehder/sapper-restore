@@ -6,12 +6,14 @@
   import Flex from "./components/Layouts/Flex.svelte";
   import Hero from "./components/UI/Hero.svelte";
   import CTA from "./components/UI/CTA.svelte";
+  import Address from "./components/UI/Address.svelte";
 </script>
 
 <svelte:head>
   <meta
     name="description"
-    content="Restore Medical Group has developed an insurance backed protocol for treating recalcitrant wounds that prove difficult to heal using conventional wound care methods." />
+    content="Restore Medical Group has developed an insurance backed protocol for treating recalcitrant wounds that prove difficult to heal using conventional wound care methods."
+  />
   <title>Restore Medical Group | Golden, CO</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6GC694DG4">
@@ -34,7 +36,8 @@
         <img
           class="no-shadow"
           src="/images/header-restore-medical-group.jpg"
-          alt="Header - Restore Medical Group" />
+          alt="Header - Restore Medical Group"
+        />
       </Section>
       <Section background="white" padding="0.5em 2em 0em" boxed>
         <h3>Welcome to a revolution in chronic wound care.</h3>
@@ -44,9 +47,9 @@
               Welcome to the
               <strong>Restore Medical Group</strong>
               Wound Care division - a truly unique health care practice. Restore
-              Medical Group has developed an insurance backed protocol for
-              treating recalcitrant wounds that prove difficult to heal using
-              conventional wound care methods.
+              Medical Group has developed an insurance backed protocol for treating
+              recalcitrant wounds that prove difficult to heal using conventional
+              wound care methods.
             </p>
 
             <p>
@@ -65,7 +68,8 @@
           <figure>
             <img
               src="/images/wound-care-restore-medical-group.jpg"
-              alt="Wound Care - Restore Medical Group" />
+              alt="Wound Care - Restore Medical Group"
+            />
           </figure>
         </Grid>
       </Section>
@@ -85,7 +89,8 @@
             <figure>
               <img
                 src="/images/qualified-patients.jpg"
-                alt="Qualified Patients - Restore Medical Group" />
+                alt="Qualified Patients - Restore Medical Group"
+              />
             </figure>
           </div>
           <article>
@@ -119,12 +124,16 @@
 
       <Section boxed>
         <Hero background="/images/snow.jpg" height="400px" padding="0 0 2em 0">
-          <CTA
-            heading="We travel to you!"
-            subtitle="To schedule an on-site patient evaluation appointment, please call (303) 216-2661."
-            href="tel:3032162661"
-            buttonText="Call Today!"
-            src="/images/transportation-restore-medical-group.jpg" />
+          <Flex align="center" gap="2em">
+            <CTA
+              heading="We travel to you!"
+              subtitle="To schedule an on-site patient evaluation appointment, please call (303) 216-2661."
+              href="tel:3032162661"
+              buttonText="Call Today!"
+              src="/images/transportation-restore-medical-group.jpg"
+            />
+            <Address />
+          </Flex>
         </Hero>
       </Section>
     </div>

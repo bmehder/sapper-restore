@@ -2,17 +2,20 @@
   export let direction = "row";
   export let justify = "left";
   export let align = "baseline";
+  export let gap;
 </script>
 
 <div
-  class:column={direction === 'column'}
-  class:justify-center={justify === 'center'}
-  class:space-between={justify === 'space-between'}
-  class:space-around={justify === 'space-around'}
-  class:space-evenly={justify === 'space-evenly'}
-  class:start={align === 'start'}
-  class:center={align === 'center'}
-  class:end={align === 'end'}>
+  class:column={direction === "column"}
+  class:justify-center={justify === "center"}
+  class:space-between={justify === "space-between"}
+  class:space-around={justify === "space-around"}
+  class:space-evenly={justify === "space-evenly"}
+  class:start={align === "start"}
+  class:center={align === "center"}
+  class:end={align === "end"}
+  style="gap:{gap};"
+>
   <slot />
 </div>
 
