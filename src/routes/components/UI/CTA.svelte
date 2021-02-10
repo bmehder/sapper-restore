@@ -36,12 +36,13 @@
     border-radius: 8px;
     box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25),
       10px 10px 60px rgba(255, 255, 255, 0.25) inset;
-    background: #323232;
-    background-image: linear-gradient(
+    /* background: #323232; */
+    background: #e8631e;
+    /* background-image: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.4)
-    );
+    ); */
   }
   figure {
     margin: 0;
@@ -82,7 +83,7 @@
     color: white;
     cursor: pointer;
     background: dodgerblue;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5),
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5),
       2px 2px 4px rgba(255, 255, 255, 0.5) inset;
     border: none;
     border-radius: 5px;
