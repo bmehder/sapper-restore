@@ -79,7 +79,8 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    /* color: #fff; */
+    color: #000;
     cursor: pointer;
     background: dodgerblue;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5),

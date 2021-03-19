@@ -4,10 +4,10 @@
   export let width = "200px";
 </script>
 
-<a style="width:{width};" id="logo" href="/">{@html logo}</a>
+<a style="width:{width};" href="/">{@html logo}</a>
 
 <style>
-  #logo {
+  a {
     display: block;
     padding: 5px 0 0 0;
     background: white;
