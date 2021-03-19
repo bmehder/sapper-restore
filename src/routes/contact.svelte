@@ -15,8 +15,9 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
   />
   <title>Contact Us | Restore Medical Group | Golden, CO</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6GC694DG4">
-  </script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-9T6ZFWHCTY"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -24,7 +25,7 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
     }
     gtag("js", new Date());
 
-    gtag("config", "G-E6GC694DG4");
+    gtag("config", "G-9T6ZFWHCTY");
   </script>
 </svelte:head>
 

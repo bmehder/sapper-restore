@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "restore-medical-group",
+  "description": "Restore Medical Group",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
