@@ -125,7 +125,7 @@
       </Section>
 
       <Section boxed>
-        <Hero background="/images/snow.jpg" height="400px" padding="0 0 2em 0">
+        <Hero background="/images/snow.jpg" height="400px">
           <Flex align="center" gap="2em">
             <CTA
               heading="We travel to you!"
