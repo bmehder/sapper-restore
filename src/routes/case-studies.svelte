@@ -37,93 +37,94 @@
   </script>
 </svelte:head>
 
-{#if access}
-  <div transition:fade={{ easing: quintOut }}>
-    <Section boxed background="white" padding="0.5em 2em 4em">
-      <h3 style="text-align:center;">Case Studies</h3>
-      <Grid columns="1fr 1fr" gap="2em">
+<!-- {#if access} -->
+<div transition:fade={{ easing: quintOut }}>
+  <Section boxed background="white" padding="0.5em 2em 4em">
+    <h3 style="text-align:center;">Case Studies</h3>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
         <div>
-          <h5 class="before-after">Before</h5>
-          <div>
-            <img src="/images/image4.jpg" alt="before" />
-            <aside>
-              6.5CM wide persistent wound unable to be healed with traditional
-              treatments.
-            </aside>
-          </div>
+          <img src="/images/image4.jpg" alt="before" />
+          <aside>
+            6.5CM wide persistent wound unable to be healed with traditional
+            treatments.
+          </aside>
         </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
         <div>
-          <h5 class="before-after">After</h5>
-          <div>
-            <img src="/images/image9.jpg" alt="after" />
-            <aside>
-              After 7 weeks of treatment using Restore’s Wound Care Protocol.
-            </aside>
-          </div>
+          <img src="/images/image9.jpg" alt="after" />
+          <aside>
+            After 7 weeks of treatment using Restore’s Wound Care Protocol.
+          </aside>
         </div>
-      </Grid>
-      <Grid columns="1fr 1fr" gap="2em">
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
         <div>
-          <h5 class="before-after">Before</h5>
-          <div>
-            <img src="/images/image1.jpg" alt="before" />
-            <aside>Picture taken 2 weeks into treatment</aside>
-          </div>
+          <img src="/images/image1.jpg" alt="before" />
+          <aside>Picture taken 2 weeks into treatment</aside>
         </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
         <div>
-          <h5 class="before-after">After</h5>
-          <div>
-            <img src="/images/image7.jpg" alt="after" />
-            <aside>Picture taken 3-4 weeks into treatment</aside>
-          </div>
+          <img src="/images/image7.jpg" alt="after" />
+          <aside>Picture taken 3-4 weeks into treatment</aside>
         </div>
-      </Grid>
-      <Grid columns="1fr 1fr" gap="2em">
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
         <div>
-          <h5 class="before-after">Before</h5>
-          <div>
-            <img src="/images/image11.jpg" alt="before" />
-            <aside>Two year old sacrum wound starting at 5.5CM</aside>
-          </div>
+          <img src="/images/image11.jpg" alt="before" />
+          <aside>Two year old sacrum wound starting at 5.5CM</aside>
         </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
         <div>
-          <h5 class="before-after">After</h5>
-          <div>
-            <img src="/images/image3.jpg" alt="after" />
-            <aside>Reduced to 3.5CM in 4 weeks. Still in treatment.</aside>
-          </div>
+          <img src="/images/image3.jpg" alt="after" />
+          <aside>Reduced to 3.5CM in 4 weeks. Still in treatment.</aside>
         </div>
-      </Grid>
-      <Grid columns="1fr 1fr" gap="2em">
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
         <div>
-          <h5 class="before-after">Before</h5>
-          <div>
-            <img src="/images/image6.jpg" alt="before" />
-            <aside>
-              Two wounds being simultaneously treated on the left gluteus.
-              Persistent wound for nearly 6 months unable to be treated with
-              conventional treatment. In this first picture the little arrow is
-              pointing to a tunnel wound that is 6 centimeters deep and 1CM wide
-              at entry.. The second wound is roughly 15CM square.
-            </aside>
-          </div>
+          <img src="/images/image6.jpg" alt="before" />
+          <aside>
+            Two wounds being simultaneously treated on the left gluteus.
+            Persistent wound for nearly 6 months unable to be treated with
+            conventional treatment. In this first picture the little arrow is
+            pointing to a tunnel wound that is 6 centimeters deep and 1CM wide
+            at entry.. The second wound is roughly 15CM square.
+          </aside>
         </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
         <div>
-          <h5 class="before-after">After</h5>
-          <div>
-            <img src="/images/image12.jpg" alt="after" />
-            <aside>
-              The second picture shows the arrow is pointing to that same wound
-              within several weeks of treatment. Estimated to be nearly closed
-              to 60%. The second wound has an obvious big change and progressing
-              nicely towards full healing.
-            </aside>
-          </div>
+          <img src="/images/image12.jpg" alt="after" />
+          <aside>
+            The second picture shows the arrow is pointing to that same wound
+            within several weeks of treatment. Estimated to be nearly closed to
+            60%. The second wound has an obvious big change and progressing
+            nicely towards full healing.
+          </aside>
         </div>
-      </Grid>
-    </Section>
-  </div>
-{:else}
+      </div>
+    </Grid>
+  </Section>
+</div>
+
+<!-- {:else}
   <Flex direction="column" justify="center" align="center">
     <form on:submit|preventDefault={handleSubmit}>
       <input type="text" bind:value placeholder="Enter Password..." />
@@ -133,8 +134,7 @@
       {/if}
     </form>
   </Flex>
-{/if}
-
+{/if} -->
 <style>
   .before-after {
     margin-top: 2em;
