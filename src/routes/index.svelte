@@ -128,7 +128,7 @@
         <hr />
       </Section>
 
-      <Section background="white" padding="0.5em 2em 4em" boxed>
+      <Section background="white" padding="0.5em 2em" boxed>
         <h4>Patient Testimonial</h4>
         <div style="padding:56.25% 0 0 0;position:relative;">
           <iframe
@@ -141,6 +141,11 @@
           />
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
+        <p style="padding: 2em;">
+          Richard has wounds on both legs. In this video, he talks about his
+          experience at Restore Medical Group, and we share some before and
+          after pictures.
+        </p>
       </Section>
 
       <Section boxed>
