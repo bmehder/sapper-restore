@@ -120,7 +120,7 @@
         </div>
       </div>
     </Grid>
-    <Grid columns="1fr 1fr" gap="2em">
+    <!-- <Grid columns="1fr 1fr" gap="2em">
       <div>
         <h5 class="before-after">Before</h5>
         <div>
@@ -135,7 +135,7 @@
           <aside>Reduced to 3.5CM in 4 weeks. Still in treatment.</aside>
         </div>
       </div>
-    </Grid>
+    </Grid> -->
     <Grid columns="1fr 1fr" gap="2em">
       <div>
         <h5 class="before-after">Before</h5>
