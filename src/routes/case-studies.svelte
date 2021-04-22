@@ -45,6 +45,48 @@
       <div>
         <h5 class="before-after">Before</h5>
         <div>
+          <img src="/images/patient-1-left-leg-before.jpg" alt="before" />
+          <aside>
+            Patient M. left leg after 5 years of treatment with traditional
+            methods.
+          </aside>
+        </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
+        <div>
+          <img src="/images/patient-1-left-leg-after.jpg" alt="after" />
+          <aside>
+            Patient M. left leg after 21 days with Restore Medical Group.
+          </aside>
+        </div>
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
+        <div>
+          <img src="/images/patient-1-right-leg-before.jpg" alt="before" />
+          <aside>
+            Patient M. right leg after 5 years of treatment with traditional
+            methods.
+          </aside>
+        </div>
+      </div>
+      <div>
+        <h5 class="before-after">After</h5>
+        <div>
+          <img src="/images/patient-1-right-leg-after.jpg" alt="after" />
+          <aside>
+            Patient M. right leg after 21 days with Restore Medical Group.
+          </aside>
+        </div>
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Before</h5>
+        <div>
           <img src="/images/image4.jpg" alt="before" />
           <aside>
             6.5CM wide persistent wound unable to be healed with traditional
@@ -154,8 +196,8 @@
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   }
-  form {
+  /* form {
     margin-top: 4em;
     width: 300px;
-  }
+  } */
 </style>

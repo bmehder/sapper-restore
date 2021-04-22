@@ -80,8 +80,8 @@
         <hr />
       </Section>
 
-      <Section background="white" padding="0.5em 2em 4em" boxed>
-        <h4 style="margin:0;">Identifying Patients</h4>
+      <Section background="white" padding="0.5em 2em" boxed>
+        <h4>Identifying Patients</h4>
         <Grid columns="1fr 1fr" gap="2em">
           <div>
             <p>
@@ -124,6 +124,25 @@
         </Grid>
       </Section>
 
+      <Section boxed background="white" padding="2em">
+        <hr />
+      </Section>
+
+      <Section background="white" padding="0.5em 2em 4em" boxed>
+        <h4>Patient Testimonial</h4>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe
+            src="https://player.vimeo.com/video/540318619?title=0&byline=0&portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            title="Restore Osteo Testimonial Video"
+          />
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </Section>
+
       <Section boxed>
         <Hero background="/images/snow.jpg" height="400px">
           <Flex align="center" gap="2em">
@@ -143,6 +162,9 @@
 </div>
 
 <style>
+  h4 {
+    margin: 0 0 1em 0;
+  }
   img {
     width: 100%;
     height: auto;
