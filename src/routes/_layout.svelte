@@ -2,6 +2,7 @@
   // export let segment;
   import Header from "./components/Layouts/Header.svelte";
   import Footer from "./components/Layouts/Footer.svelte";
+  import Flex from "./components/Layouts/Flex.svelte";
 
   let year = new Date().getFullYear();
 </script>
@@ -12,8 +13,12 @@
     <slot />
   </main>
   <Footer background="#333" color="#eee">
-    ©{year}
-    Restore Medical Group is a DBA of Restore Osteo of Colorado, LLC
+    <Flex align="center" justify="center" gap="2em">
+      <p>
+        ©{year} Restore Medical Group is a DBA of Restore Osteo of Colorado, LLC
+      </p>
+      <p>Phone: (720) 678-9868 | Fax: (720) 678-9860</p>
+    </Flex>
   </Footer>
 </div>
 

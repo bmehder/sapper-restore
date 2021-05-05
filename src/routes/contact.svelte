@@ -34,7 +34,7 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
     <Flex direction="column" justify="center" align="center">
       <CTA
         heading="Schedule an Appointment"
-        subtitle="<big><strong>(720) 678-9868</strong></big>"
+        subtitle="Phone: (720) 678-9868<br />Fax: (720) 678-9860"
         href="tel:7206789868"
         buttonText="Call Today!"
         src="/images/schedule-an-appointment-restore-medical-group.jpg"
