@@ -17,7 +17,7 @@
       <p style="margin-top: 1em;text-align:center;">
         <big><strong>Thornton, CO</strong></big><br />
         9195 Grant Street, Suite 305<br />
-        Thornton, CO. 80229
+        Thornton, CO 80229
       </p>
 
       <p style="margin-top: 1em;text-align:center;">
