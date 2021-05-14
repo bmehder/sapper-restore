@@ -40,12 +40,24 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
         src="/images/schedule-an-appointment-restore-medical-group.jpg"
       />
 
+      <h3>Three Metro Denver clinics for your convenience:</h3>
+
       <p style="margin-top: 1em;text-align:center;">
-        <big><strong>Restore Medical Group</strong></big><br />
-        is a DBA of<br />
-        Restore Osteo of Colorado, LLC<br />
+        <big><strong>Golden, CO</strong></big><br />
         400 Indian Street, Suite 280<br />
         Golden, CO 80401
+      </p>
+
+      <p style="margin-top: 1em;text-align:center;">
+        <big><strong>Thornton, CO</strong></big><br />
+        9195 Grant Street, Suite 305<br />
+        Thornton, CO. 80229
+      </p>
+
+      <p style="margin-top: 1em;text-align:center;">
+        <big><strong>Aurora, CO</strong></big><br />
+        1421 S. Potomac Street, Suite 330<br />
+        Aurora, CO 80012
       </p>
 
       <h3>Send Us A Message</h3>
@@ -58,3 +70,9 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
     </Flex>
   </Section>
 </div>
+
+<style>
+  h3 {
+    padding: 0 2em;
+  }
+</style>

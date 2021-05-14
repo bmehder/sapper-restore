@@ -1,5 +1,5 @@
 <article>
-  <p>We offer in-clinic wound care at our Red Rocks Medical Center campus.</p>
+  <p>We offer multiple location for in-clinic treatments.</p>
   <address>
     400 Indiana Street<br />
     Suite 280<br />
