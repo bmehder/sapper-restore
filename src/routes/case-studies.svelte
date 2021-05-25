@@ -24,8 +24,9 @@
 <svelte:head>
   <title>Case Studies | Restore Medical Group | Golden, CO</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6GC694DG4">
-  </script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-185413763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -33,7 +34,7 @@
     }
     gtag("js", new Date());
 
-    gtag("config", "G-E6GC694DG4");
+    gtag("config", "UA-185413763-1");
   </script>
 </svelte:head>
 

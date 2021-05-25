@@ -17,9 +17,10 @@
   <title>Restore Medical Group | Golden, CO</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-9T6ZFWHCTY"></script>
+    src="https://www.googletagmanager.com/gtag/js?id=UA-185413763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -27,7 +28,7 @@
     }
     gtag("js", new Date());
 
-    gtag("config", "G-9T6ZFWHCTY");
+    gtag("config", "UA-185413763-1");
   </script>
 </svelte:head>
 

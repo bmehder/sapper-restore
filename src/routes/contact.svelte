@@ -17,7 +17,7 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-9T6ZFWHCTY"></script>
+    src="https://www.googletagmanager.com/gtag/js?id=UA-185413763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -25,7 +25,7 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
     }
     gtag("js", new Date());
 
-    gtag("config", "G-9T6ZFWHCTY");
+    gtag("config", "UA-185413763-1");
   </script>
 </svelte:head>
 
