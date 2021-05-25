@@ -158,7 +158,7 @@
               buttonText="Call Today!"
               src="/images/transportation-restore-medical-group.jpg"
             />
-            <Address />
+            <!-- <Address /> -->
           </Flex>
         </Hero>
       </Section>
@@ -175,7 +175,7 @@
     height: auto;
     object-fit: cover;
     border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24); */
   }
   figure {
     width: 400px;

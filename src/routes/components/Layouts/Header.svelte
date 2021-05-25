@@ -15,9 +15,13 @@
   <nav class="main">
     <Logo
       logo="<img style='width:100%;' src='/images/restore-medical-group-logo.png' alt='logo' />"
-      width="150px" />
+      width="150px"
+    />
     <ul class:uppercase>
       <li><a style="color:{linkColor};" href="/">Home</a></li>
+      <!-- <li><a style="color:{linkColor};" href="patients">Patients</a></li>
+      <li><a style="color:{linkColor};" href="providers">Providers</a></li>
+      <li><a style="color:{linkColor};" href="process">Process</a></li> -->
       <li>
         <a style="color:{linkColor};" href="case-studies">Case Studies</a>
       </li>
@@ -28,7 +32,8 @@
     <div class="bun">
       <Logo
         logo="<img style='width:100%;' src='/images/restore-medical-group-logo.png' alt='logo' />"
-        width="150px" />
+        width="150px"
+      />
       <div on:click={showMobile} class="hamburger">&#9776;</div>
     </div>
     {#if mobile}
@@ -40,13 +45,13 @@
           <a
             style="color:{linkColor};"
             on:click={showMobile}
-            href="case-studies">Case Studies</a>
+            href="case-studies">Case Studies</a
+          >
         </li>
         <li>
-          <a
-            style="color:{linkColor};"
-            on:click={showMobile}
-            href="contact">Contact</a>
+          <a style="color:{linkColor};" on:click={showMobile} href="contact"
+            >Contact</a
+          >
         </li>
       </ul>
     {/if}

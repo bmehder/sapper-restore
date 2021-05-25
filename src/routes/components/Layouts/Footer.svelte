@@ -6,6 +6,7 @@
 </script>
 
 <footer style="height:{height};background:{background};color:{color};">
+  <h4>We offer multiple location for in-clinic treatments.</h4>
   <div>
     <Flex justify="center" gap="4em">
       <p style="margin-top: 1em;text-align:center;">
@@ -36,6 +37,9 @@
     background: darkorange;
     color: white;
     text-align: center;
+  }
+  h4 {
+    color: gold;
   }
   div {
     max-width: 960px;

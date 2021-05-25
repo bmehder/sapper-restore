@@ -28,7 +28,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     height: 250px;
     margin: 2em auto;
     padding: 1em 0;
