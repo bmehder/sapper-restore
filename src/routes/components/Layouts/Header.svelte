@@ -8,7 +8,9 @@
   export let linkColor = "white";
 
   let mobile = false;
-  const showMobile = () => (mobile = !mobile);
+  const showMobile = () => {
+    mobile = !mobile;
+  };
 </script>
 
 <header class:sticky style="background:{background};color:{color};">

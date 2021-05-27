@@ -103,3 +103,9 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+@media (max-width: 640px) {
+  footer div {
+    gap: 1em !important;
+  }
+}
