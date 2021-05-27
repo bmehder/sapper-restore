@@ -8,11 +8,11 @@
 </script>
 
 <div class="wrapper">
-  <Header background="#333" />
+  <Header background="#323232" />
   <main>
     <slot />
   </main>
-  <Footer background="#333" color="#eee">
+  <Footer background="#323232" color="#eee">
     <Flex align="center" justify="center" gap="2em">
       <p>
         ©{year} Restore Medical Group is a DBA of Restore Osteo of Colorado, LLC

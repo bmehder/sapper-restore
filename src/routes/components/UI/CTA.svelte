@@ -28,14 +28,15 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     height: 250px;
     margin: 2em auto;
     padding: 1em 0;
     background: white;
     border-radius: 8px;
-    box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25),
-      10px 10px 60px rgba(255, 255, 255, 0.25) inset;
+    /* box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25),
+      10px 10px 60px rgba(255, 255, 255, 0.25) inset; */
+    box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25);
     background: #323232;
     background-image: linear-gradient(
       to bottom right,
