@@ -66,7 +66,10 @@
               options.
             </p>
 
-            <p><strong>Insurance Accepted:</strong> Medicare Part B</p>
+            <p>
+              <strong>Most insurance accepted, including Medicare Part B</strong
+              >
+            </p>
           </article>
           <figure>
             <img
