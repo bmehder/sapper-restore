@@ -60,6 +60,11 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
         Aurora, CO 80012
       </p>
 
+      <p>
+        We also realize a wound may make it hard or impossible to visit a
+        clinic, so we can also visit a facility or home.
+      </p>
+
       <h3>Send Us A Message</h3>
 
       <Form
@@ -74,5 +79,10 @@ Golden, CO 80401 - Schedule An Appointment at (720) 678-9868"
 <style>
   h3 {
     padding: 0 2em;
+  }
+
+  p {
+    margin-top: 1em;
+    text-align: center;
   }
 </style>
