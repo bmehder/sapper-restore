@@ -21,9 +21,9 @@
     />
     <ul class:uppercase>
       <li><a style="color:{linkColor};" href="/">Home</a></li>
-      <!-- <li><a style="color:{linkColor};" href="patients">Patients</a></li>
+      <li><a style="color:{linkColor};" href="patients">Patients</a></li>
       <li><a style="color:{linkColor};" href="providers">Providers</a></li>
-      <li><a style="color:{linkColor};" href="process">Process</a></li> -->
+      <!-- <li><a style="color:{linkColor};" href="process">Process</a></li> -->
       <li>
         <a style="color:{linkColor};" href="case-studies">Case Studies</a>
       </li>
@@ -43,6 +43,8 @@
         <li>
           <a style="color:{linkColor};" on:click={showMobile} href="/">Home</a>
         </li>
+        <li><a style="color:{linkColor};" href="patients">Patients</a></li>
+        <li><a style="color:{linkColor};" href="providers">Providers</a></li>
         <li>
           <a
             style="color:{linkColor};"
