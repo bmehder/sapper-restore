@@ -6,7 +6,7 @@
 </script>
 
 <footer style="height:{height};background:{background};color:{color};">
-  <h4>We offer multiple location for in-clinic treatments.</h4>
+  <h4>We offer multiple locations for in-clinic treatments.</h4>
   <div>
     <Flex justify="center" gap="4em">
       <p style="margin-top: 1em;text-align:center;">
