@@ -9,8 +9,6 @@
   />
   <title>Restore Medical Group | Providers | Golden, CO</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=UA-185413763-1"></script>

@@ -23,7 +23,7 @@
 
 <svelte:head>
   <title>Case Studies | Restore Medical Group | Golden, CO</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=UA-185413763-1"></script>
@@ -137,29 +137,82 @@
         </div>
       </div>
     </Grid> -->
+    <Grid columns="1fr">
+      <h3 style="margin-top:2em;text-align:center;">Maxine H. Wound Series</h3>
+    </Grid>
     <Grid columns="1fr 1fr" gap="2em">
       <div>
-        <h5 class="before-after">Before</h5>
+        <h5>Top</h5>
         <div>
-          <img src="/images/image6.jpg" alt="before" />
+          <img src="/images/maxine/maxine-3-24-top.jpg" alt="maxine 3-24 top" />
           <aside>
-            Two wounds being simultaneously treated on the left gluteus.
-            Persistent wound for nearly 6 months unable to be treated with
-            conventional treatment. In this first picture the little arrow is
-            pointing to a tunnel wound that is 6 centimeters deep and 1CM wide
-            at entry.. The second wound is roughly 15CM square.
+            3-24-2021. Maxine H. top wound following 2 1/2 years of traditional
+            wound treatment. Open wound, no skin coverage. Day One with Restore
+            Medical Group.
           </aside>
         </div>
       </div>
       <div>
-        <h5 class="before-after">After</h5>
+        <h5>Side</h5>
         <div>
-          <img src="/images/image12.jpg" alt="after" />
+          <img
+            src="/images/maxine/maxine-3-24-side.jpg"
+            alt="maxine 3-24 side"
+          />
           <aside>
-            The second picture shows the arrow is pointing to that same wound
-            within several weeks of treatment. Estimated to be nearly closed to
-            60%. The second wound has an obvious big change and progressing
-            nicely towards full healing.
+            3-24-2021. Side wound; basically one large wound connected to the
+            top wound. Again, after 2 1/2 years of traditional wound treatment.
+            Day One with Restore.
+          </aside>
+        </div>
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Top</h5>
+        <div>
+          <img src="/images/maxine/maxine-5-17-top.jpg" alt="maxine 5-17 top" />
+          <aside>
+            5-17-2021. Maxine H. top wound following first treatment plan with
+            Restore. Skin completely covering wound.
+          </aside>
+        </div>
+      </div>
+      <div>
+        <h5 class="before-after">Side</h5>
+        <div>
+          <img
+            src="/images/maxine/maxine-5-17-side.jpg"
+            alt="maxine 5-17 side"
+          />
+          <aside>
+            5-17-2021. Side wound following first treatment plan showing clear
+            separation from top wound.
+          </aside>
+        </div>
+      </div>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
+      <div>
+        <h5 class="before-after">Top</h5>
+        <div>
+          <img src="/images/maxine/maxine-6-18-top.jpg" alt="maxine 6-18 top" />
+          <aside>
+            6-18-2021. Maxine H. top wound showing continued healing and
+            shrinkage.
+          </aside>
+        </div>
+      </div>
+      <div>
+        <h5 class="before-after">Side</h5>
+        <div>
+          <img
+            src="/images/maxine/maxine-6-16-side.jpg"
+            alt="maxine 6-16 side"
+          />
+          <aside>
+            6-18-2021. Side wound magnified 10x showing complete healing with a
+            slight discoloration of skin.
           </aside>
         </div>
       </div>
@@ -179,10 +232,12 @@
   </Flex>
 {/if} -->
 <style>
+  h5 {
+    font-size: 150%;
+    text-align: center;
+  }
   .before-after {
     margin-top: 2em;
-    text-align: center;
-    font-size: 150%;
   }
   aside {
     display: block;
