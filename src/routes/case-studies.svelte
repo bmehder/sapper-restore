@@ -105,7 +105,7 @@
       </div>
     </div>
   </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
+  <!-- <Grid columns="1fr 1fr" gap="2em">
     <div>
       <h5 class="before-after">Before</h5>
       <div>
@@ -120,7 +120,7 @@
         <aside>Picture taken 3-4 weeks into treatment</aside>
       </div>
     </div>
-  </Grid>
+  </Grid> -->
   <!-- <Grid columns="1fr 1fr" gap="2em">
       <div>
         <h5 class="before-after">Before</h5>
@@ -138,40 +138,49 @@
       </div>
     </Grid> -->
   <Grid columns="1fr">
-    <h3 style="margin-top:2em;text-align:center;">Maxine H. Wound Series</h3>
+    <h3 style="margin-top:2em;text-align:center;">Leg Wound Series</h3>
   </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
+  <Grid columns="1fr 1fr 1fr" gap="2em">
     <div>
-      <h5>Top</h5>
+      <h5 class="before-after">Top</h5>
       <div>
         <img src="/images/maxine/maxine-3-24-top.jpg" alt="maxine 3-24 top" />
         <aside>
-          3-24-2021. Maxine H. top wound following 2 1/2 years of traditional
-          wound treatment. Open wound, no skin coverage. Day One with Restore
-          Medical Group.
+          3-24-2021. Top wound following 2 1/2 years of traditional wound
+          treatment. Open wound, no skin coverage. Day One with Restore Medical
+          Group.
         </aside>
       </div>
     </div>
     <div>
-      <h5>Side</h5>
+      <h5 class="before-after">Top</h5>
+      <div>
+        <img src="/images/maxine/maxine-5-17-top.jpg" alt="maxine 5-17 top" />
+        <aside>
+          5-17-2021. Top wound following first treatment plan with Restore. Skin
+          completely covering wound.
+        </aside>
+      </div>
+    </div>
+    <div>
+      <h5 class="before-after">Top</h5>
+      <div>
+        <img src="/images/maxine/maxine-6-18-top.jpg" alt="maxine 6-18 top" />
+        <aside>
+          6-18-2021. Top wound showing continued healing and shrinkage.
+        </aside>
+      </div>
+    </div>
+  </Grid>
+  <Grid columns="1fr 1fr 1fr" gap="2em">
+    <div>
+      <h5 class="before-after">Side</h5>
       <div>
         <img src="/images/maxine/maxine-3-24-side.jpg" alt="maxine 3-24 side" />
         <aside>
           3-24-2021. Side wound; basically one large wound connected to the top
           wound. Again, after 2 1/2 years of traditional wound treatment. Day
           One with Restore.
-        </aside>
-      </div>
-    </div>
-  </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Top</h5>
-      <div>
-        <img src="/images/maxine/maxine-5-17-top.jpg" alt="maxine 5-17 top" />
-        <aside>
-          5-17-2021. Maxine H. top wound following first treatment plan with
-          Restore. Skin completely covering wound.
         </aside>
       </div>
     </div>
@@ -182,18 +191,6 @@
         <aside>
           5-17-2021. Side wound following first treatment plan showing clear
           separation from top wound.
-        </aside>
-      </div>
-    </div>
-  </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Top</h5>
-      <div>
-        <img src="/images/maxine/maxine-6-18-top.jpg" alt="maxine 6-18 top" />
-        <aside>
-          6-18-2021. Maxine H. top wound showing continued healing and
-          shrinkage.
         </aside>
       </div>
     </div>
