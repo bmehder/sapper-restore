@@ -42,6 +42,17 @@
 <!-- <div transition:fade={{ easing: quintOut }}> -->
 <Section boxed background="white" padding="0.5em 2em 4em">
   <h3 style="text-align:center;">Case Studies</h3>
+  <div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe
+      src="https://player.vimeo.com/video/585136478?title=0&byline=0&portrait=0"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+      title="Maxine Finishing - Restore Medical Group"
+    />
+  </div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
   <Grid columns="1fr 1fr" gap="2em">
     <div>
       <h5 class="before-after">Before</h5>
