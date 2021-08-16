@@ -7,6 +7,7 @@
   import Hero from "./components/UI/Hero.svelte";
   import CTA from "./components/UI/CTA.svelte";
   import Address from "./components/UI/Address.svelte";
+  import Button from "./components/UI/Button.svelte";
 </script>
 
 <svelte:head>
@@ -128,23 +129,17 @@
     </Section>
 
     <Section background="white" padding="0.5em 2em" boxed>
-      <h4>Patient Testimonial</h4>
-      <div style="padding:56.25% 0 0 0;position:relative;">
-        <iframe
-          src="https://player.vimeo.com/video/540318619?title=0&byline=0&portrait=0"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-          title="Restore Osteo Testimonial Video"
-        />
+      <div style="text-align:center;">
+        <h4>Testimonials</h4>
+        <blockquote>
+          "Restore Medical Group was the last chance for me."
+          <cite>-Maxine (Patient)</cite>
+        </blockquote>
+        <p>Check out the testimonials from previous patients.</p>
+        <Button background="dodgerblue" url="/testimonials"
+          >Watch The Videos</Button
+        >
       </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <p style="padding: 2em;">
-        Richard has wounds on both legs. In this video, he talks about his
-        experience at Restore Medical Group, and we share some before and after
-        pictures.
-      </p>
     </Section>
 
     <Section boxed>
@@ -183,6 +178,17 @@
   }
   .no-shadow {
     box-shadow: none;
+  }
+  blockquote {
+    display: inline-block;
+    padding: 2rem;
+    color: dodgerblue;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  cite {
+    display: block;
+    font-size: 1.2rem;
   }
   @media (max-width: 640px) {
     figure {

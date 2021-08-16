@@ -15,7 +15,7 @@
   class:rounded
   class:reflection
   href={url}
-  target="_blank"><slot />
+  ><slot />
 </a>
 
 <style>

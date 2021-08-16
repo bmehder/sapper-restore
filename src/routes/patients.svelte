@@ -23,7 +23,7 @@
   </script>
 </svelte:head>
 
-<Section boxed margin="2em auto" padding="0.5em 2em 4em">
+<Section boxed margin="auto" background="white" padding="0.5em 2em 4em">
   <h3 style="text-align:center;">Patients</h3>
 
   <h4>Frustrated by a chronic wound?</h4>

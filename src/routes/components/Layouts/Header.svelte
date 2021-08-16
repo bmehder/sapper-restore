@@ -27,6 +27,9 @@
       <li>
         <a style="color:{linkColor};" href="case-studies">Case Studies</a>
       </li>
+      <li>
+        <a style="color:{linkColor};" href="testimonials">Testimonials</a>
+      </li>
       <li><a style="color:{linkColor};" href="contact">Contact</a></li>
     </ul>
   </nav>
@@ -51,6 +54,9 @@
             on:click={showMobile}
             href="case-studies">Case Studies</a
           >
+        </li>
+        <li>
+          <a style="color:{linkColor};" href="testimonials">Testimonials</a>
         </li>
         <li>
           <a style="color:{linkColor};" on:click={showMobile} href="contact"
