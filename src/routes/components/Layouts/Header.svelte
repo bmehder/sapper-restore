@@ -21,16 +21,16 @@
     />
     <ul class:uppercase>
       <li><a style="color:{linkColor};" href="/">Home</a></li>
-      <li><a style="color:{linkColor};" href="patients">Patients</a></li>
-      <li><a style="color:{linkColor};" href="providers">Providers</a></li>
+      <li><a style="color:{linkColor};" href="/patients/">Patients</a></li>
+      <li><a style="color:{linkColor};" href="/providers/">Providers</a></li>
       <!-- <li><a style="color:{linkColor};" href="process">Process</a></li> -->
       <li>
-        <a style="color:{linkColor};" href="case-studies">Case Studies</a>
+        <a style="color:{linkColor};" href="/case-studies/">Case Studies</a>
       </li>
       <li>
-        <a style="color:{linkColor};" href="testimonials">Testimonials</a>
+        <a style="color:{linkColor};" href="/testimonials/">Testimonials</a>
       </li>
-      <li><a style="color:{linkColor};" href="contact">Contact</a></li>
+      <li><a style="color:{linkColor};" href="/contact/">Contact</a></li>
     </ul>
   </nav>
   <nav class="mobile">
@@ -46,20 +46,20 @@
         <li>
           <a style="color:{linkColor};" on:click={showMobile} href="/">Home</a>
         </li>
-        <li><a style="color:{linkColor};" href="patients">Patients</a></li>
-        <li><a style="color:{linkColor};" href="providers">Providers</a></li>
+        <li><a style="color:{linkColor};" href="/patients/">Patients</a></li>
+        <li><a style="color:{linkColor};" href="/providers/">Providers</a></li>
         <li>
           <a
             style="color:{linkColor};"
             on:click={showMobile}
-            href="case-studies">Case Studies</a
+            href="/case-studies/">Case Studies</a
           >
         </li>
         <li>
-          <a style="color:{linkColor};" href="testimonials">Testimonials</a>
+          <a style="color:{linkColor};" href="/testimonials/">Testimonials</a>
         </li>
         <li>
-          <a style="color:{linkColor};" on:click={showMobile} href="contact"
+          <a style="color:{linkColor};" on:click={showMobile} href="/contact/"
             >Contact</a
           >
         </li>
