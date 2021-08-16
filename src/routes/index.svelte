@@ -134,9 +134,9 @@
         </blockquote>
         <p>Check out the testimonials from previous patients.</p>
         <Button
-          background="dodgerblue"
+          background="#79a10a"
           url="/testimonials"
-          color="black"
+          color="white"
           rounded
           shadow
           uppercase>Watch The Videos</Button
