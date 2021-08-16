@@ -1,6 +1,4 @@
 <script>
-  import { fade } from "svelte/transition";
-  import { quintOut } from "svelte/easing";
   import Section from "./components/Layouts/Section.svelte";
   import Grid from "./components/Layouts/Grid.svelte";
   import Flex from "./components/Layouts/Flex.svelte";
@@ -39,7 +37,6 @@
 </svelte:head>
 
 <!-- {#if access} -->
-<!-- <div transition:fade={{ easing: quintOut }}> -->
 <Section boxed background="white" padding="0.5em 2em 4em">
   <h3 style="text-align:center;">Case Studies</h3>
 
@@ -207,7 +204,6 @@
     </div>
   </Grid>
 </Section>
-<!-- </div> -->
 
 <!-- {:else}
   <Flex direction="column" justify="center" align="center">
