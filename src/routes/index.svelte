@@ -136,8 +136,13 @@
           <cite>-Maxine (Patient)</cite>
         </blockquote>
         <p>Check out the testimonials from previous patients.</p>
-        <Button background="dodgerblue" url="/testimonials"
-          >Watch The Videos</Button
+        <Button
+          background="dodgerblue"
+          url="/testimonials"
+          color="black"
+          rounded
+          shadow
+          uppercase>Watch The Videos</Button
         >
       </div>
     </Section>

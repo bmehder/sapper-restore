@@ -31,10 +31,10 @@
     letter-spacing: 0.5px;
   }
 
-  /* a:hover {
+  a:hover {
     transform: scale(0.98);
     transform-origin: center;
-  } */
+  }
 
   .shadow {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
