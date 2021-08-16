@@ -125,7 +125,7 @@
       <hr />
     </Section>
 
-    <Section background="white" padding="0.5em 2em" boxed>
+    <Section background="white" padding="0.5em 2em 3em" boxed>
       <div style="text-align:center;">
         <h4>Testimonials</h4>
         <blockquote>
