@@ -34,6 +34,7 @@
   a:hover {
     transform: scale(0.98);
     transform-origin: center;
+    text-decoration: none;
   }
 
   .shadow {
