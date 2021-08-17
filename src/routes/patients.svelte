@@ -1,5 +1,6 @@
 <script>
   import Section from "./components/Layouts/Section.svelte";
+  import Transition from "./components/Transition.svelte";
 </script>
 
 <svelte:head>
@@ -23,41 +24,43 @@
   </script>
 </svelte:head>
 
-<Section boxed margin="auto" background="white" padding="0.5em 2em 4em">
-  <h3 style="text-align:center;">Patients</h3>
+<Transition>
+  <Section boxed margin="auto" background="white" padding="0.5em 2em 4em">
+    <h3 style="text-align:center;">Patients</h3>
 
-  <h4>Frustrated by a chronic wound?</h4>
+    <h4>Frustrated by a chronic wound?</h4>
 
-  <p>
-    Wounds can be created many ways; surgery, injury, Diabetes, pressure, even
-    blood clots can lead to surface wounds. Other factors can complicate
-    treatment from medication to radiation treatment or circulation problems.
-    Even what looks like a simple wound can become a serious (not to mention
-    painful!) issue.
-  </p>
+    <p>
+      Wounds can be created many ways; surgery, injury, Diabetes, pressure, even
+      blood clots can lead to surface wounds. Other factors can complicate
+      treatment from medication to radiation treatment or circulation problems.
+      Even what looks like a simple wound can become a serious (not to mention
+      painful!) issue.
+    </p>
 
-  <p>
-    There are many treatment options for wounds and Restore Medical Group will
-    work with you to provide the best option for care. Serious wounds can make
-    it difficult to get around and so we offer multiple clinics along the Front
-    Range as well as the option of traveling to the facility where you are or
-    even your home.
-  </p>
+    <p>
+      There are many treatment options for wounds and Restore Medical Group will
+      work with you to provide the best option for care. Serious wounds can make
+      it difficult to get around and so we offer multiple clinics along the
+      Front Range as well as the option of traveling to the facility where you
+      are or even your home.
+    </p>
 
-  <p>
-    We specialize in treating chronic wounds with the Restore process that could
-    include the use of amnio products. These products use your own tissue to
-    create new skin and have proven very effective even on people who have been
-    treated with more conventional wound practices.
-  </p>
+    <p>
+      We specialize in treating chronic wounds with the Restore process that
+      could include the use of amnio products. These products use your own
+      tissue to create new skin and have proven very effective even on people
+      who have been treated with more conventional wound practices.
+    </p>
 
-  <p>
-    Don’t give up! This process has been approved by many insurance groups as
-    well as Medicare Part B. What was once cost-prohibitive is now within the
-    reach of many.
-  </p>
+    <p>
+      Don’t give up! This process has been approved by many insurance groups as
+      well as Medicare Part B. What was once cost-prohibitive is now within the
+      reach of many.
+    </p>
 
-  <p>
-    <a href="/contact">Contact us</a> to discuss your situation and set up an evaluation.
-  </p>
-</Section>
+    <p>
+      <a href="/contact">Contact us</a> to discuss your situation and set up an evaluation.
+    </p>
+  </Section>
+</Transition>

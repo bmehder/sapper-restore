@@ -1,5 +1,6 @@
 <script>
   // export let segment;
+  import { fade } from "svelte/transition";
   import Header from "./components/Layouts/Header.svelte";
   import Footer from "./components/Layouts/Footer.svelte";
   import Flex from "./components/Layouts/Flex.svelte";

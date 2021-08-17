@@ -1,4 +1,5 @@
 <script>
+  import Transition from "./components/Transition.svelte";
   import Section from "./components/Layouts/Section.svelte";
   import Grid from "./components/Layouts/Grid.svelte";
   import Flex from "./components/Layouts/Flex.svelte";
@@ -37,73 +38,74 @@
 </svelte:head>
 
 <!-- {#if access} -->
-<Section boxed background="white" padding="0.5em 2em 4em">
-  <h3 style="text-align:center;">Case Studies</h3>
+<Transition>
+  <Section boxed background="white" padding="0.5em 2em 4em">
+    <h3 style="text-align:center;">Case Studies</h3>
 
-  <Grid columns="1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Before</h5>
+    <Grid columns="1fr 1fr" gap="2em">
       <div>
-        <img src="/images/patient-1-left-leg-before.jpg" alt="before" />
-        <aside>
-          Patient M. left leg after 5 years of treatment with traditional
-          methods.
-        </aside>
+        <h5 class="before-after">Before</h5>
+        <div>
+          <img src="/images/patient-1-left-leg-before.jpg" alt="before" />
+          <aside>
+            Patient M. left leg after 5 years of treatment with traditional
+            methods.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">After</h5>
       <div>
-        <img src="/images/patient-1-left-leg-after.jpg" alt="after" />
-        <aside>
-          Patient M. left leg after 21 days with Restore Medical Group.
-        </aside>
+        <h5 class="before-after">After</h5>
+        <div>
+          <img src="/images/patient-1-left-leg-after.jpg" alt="after" />
+          <aside>
+            Patient M. left leg after 21 days with Restore Medical Group.
+          </aside>
+        </div>
       </div>
-    </div>
-  </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Before</h5>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
       <div>
-        <img src="/images/patient-1-right-leg-before.jpg" alt="before" />
-        <aside>
-          Patient M. right leg after 5 years of treatment with traditional
-          methods.
-        </aside>
+        <h5 class="before-after">Before</h5>
+        <div>
+          <img src="/images/patient-1-right-leg-before.jpg" alt="before" />
+          <aside>
+            Patient M. right leg after 5 years of treatment with traditional
+            methods.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">After</h5>
       <div>
-        <img src="/images/patient-1-right-leg-after.jpg" alt="after" />
-        <aside>
-          Patient M. right leg after 21 days with Restore Medical Group.
-        </aside>
+        <h5 class="before-after">After</h5>
+        <div>
+          <img src="/images/patient-1-right-leg-after.jpg" alt="after" />
+          <aside>
+            Patient M. right leg after 21 days with Restore Medical Group.
+          </aside>
+        </div>
       </div>
-    </div>
-  </Grid>
-  <Grid columns="1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Before</h5>
+    </Grid>
+    <Grid columns="1fr 1fr" gap="2em">
       <div>
-        <img src="/images/image4.jpg" alt="before" />
-        <aside>
-          6.5CM wide persistent wound unable to be healed with traditional
-          treatments.
-        </aside>
+        <h5 class="before-after">Before</h5>
+        <div>
+          <img src="/images/image4.jpg" alt="before" />
+          <aside>
+            6.5CM wide persistent wound unable to be healed with traditional
+            treatments.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">After</h5>
       <div>
-        <img src="/images/image9.jpg" alt="after" />
-        <aside>
-          After 7 weeks of treatment using Restore’s Wound Care Protocol.
-        </aside>
+        <h5 class="before-after">After</h5>
+        <div>
+          <img src="/images/image9.jpg" alt="after" />
+          <aside>
+            After 7 weeks of treatment using Restore’s Wound Care Protocol.
+          </aside>
+        </div>
       </div>
-    </div>
-  </Grid>
-  <!-- <Grid columns="1fr 1fr" gap="2em">
+    </Grid>
+    <!-- <Grid columns="1fr 1fr" gap="2em">
     <div>
       <h5 class="before-after">Before</h5>
       <div>
@@ -119,7 +121,7 @@
       </div>
     </div>
   </Grid> -->
-  <!-- <Grid columns="1fr 1fr" gap="2em">
+    <!-- <Grid columns="1fr 1fr" gap="2em">
       <div>
         <h5 class="before-after">Before</h5>
         <div>
@@ -135,75 +137,85 @@
         </div>
       </div>
     </Grid> -->
-  <Grid columns="1fr">
-    <h3 style="margin-top:2em;text-align:center;">Leg Wound Series</h3>
-  </Grid>
-  <Grid columns="1fr 1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Top</h5>
+    <Grid columns="1fr">
+      <h3 style="margin-top:2em;text-align:center;">Leg Wound Series</h3>
+    </Grid>
+    <Grid columns="1fr 1fr 1fr" gap="2em">
       <div>
-        <img src="/images/maxine/maxine-3-24-top.jpg" alt="maxine 3-24 top" />
-        <aside>
-          3-24-2021. Top wound following 2 1/2 years of traditional wound
-          treatment. Open wound, no skin coverage. Day One with Restore Medical
-          Group.
-        </aside>
+        <h5 class="before-after">Top</h5>
+        <div>
+          <img src="/images/maxine/maxine-3-24-top.jpg" alt="maxine 3-24 top" />
+          <aside>
+            3-24-2021. Top wound following 2 1/2 years of traditional wound
+            treatment. Open wound, no skin coverage. Day One with Restore
+            Medical Group.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">Top</h5>
       <div>
-        <img src="/images/maxine/maxine-5-17-top.jpg" alt="maxine 5-17 top" />
-        <aside>
-          5-17-2021. Top wound following first treatment plan with Restore. Skin
-          completely covering wound.
-        </aside>
+        <h5 class="before-after">Top</h5>
+        <div>
+          <img src="/images/maxine/maxine-5-17-top.jpg" alt="maxine 5-17 top" />
+          <aside>
+            5-17-2021. Top wound following first treatment plan with Restore.
+            Skin completely covering wound.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">Top</h5>
       <div>
-        <img src="/images/maxine/maxine-6-18-top.jpg" alt="maxine 6-18 top" />
-        <aside>
-          6-18-2021. Top wound showing continued healing and shrinkage.
-        </aside>
+        <h5 class="before-after">Top</h5>
+        <div>
+          <img src="/images/maxine/maxine-6-18-top.jpg" alt="maxine 6-18 top" />
+          <aside>
+            6-18-2021. Top wound showing continued healing and shrinkage.
+          </aside>
+        </div>
       </div>
-    </div>
-  </Grid>
-  <Grid columns="1fr 1fr 1fr" gap="2em">
-    <div>
-      <h5 class="before-after">Side</h5>
+    </Grid>
+    <Grid columns="1fr 1fr 1fr" gap="2em">
       <div>
-        <img src="/images/maxine/maxine-3-24-side.jpg" alt="maxine 3-24 side" />
-        <aside>
-          3-24-2021. Side wound; basically one large wound connected to the top
-          wound. Again, after 2 1/2 years of traditional wound treatment. Day
-          One with Restore.
-        </aside>
+        <h5 class="before-after">Side</h5>
+        <div>
+          <img
+            src="/images/maxine/maxine-3-24-side.jpg"
+            alt="maxine 3-24 side"
+          />
+          <aside>
+            3-24-2021. Side wound; basically one large wound connected to the
+            top wound. Again, after 2 1/2 years of traditional wound treatment.
+            Day One with Restore.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">Side</h5>
       <div>
-        <img src="/images/maxine/maxine-5-17-side.jpg" alt="maxine 5-17 side" />
-        <aside>
-          5-17-2021. Side wound following first treatment plan showing clear
-          separation from top wound.
-        </aside>
+        <h5 class="before-after">Side</h5>
+        <div>
+          <img
+            src="/images/maxine/maxine-5-17-side.jpg"
+            alt="maxine 5-17 side"
+          />
+          <aside>
+            5-17-2021. Side wound following first treatment plan showing clear
+            separation from top wound.
+          </aside>
+        </div>
       </div>
-    </div>
-    <div>
-      <h5 class="before-after">Side</h5>
       <div>
-        <img src="/images/maxine/maxine-6-16-side.jpg" alt="maxine 6-16 side" />
-        <aside>
-          6-18-2021. Side wound magnified 10x showing complete healing with a
-          slight discoloration of skin.
-        </aside>
+        <h5 class="before-after">Side</h5>
+        <div>
+          <img
+            src="/images/maxine/maxine-6-16-side.jpg"
+            alt="maxine 6-16 side"
+          />
+          <aside>
+            6-18-2021. Side wound magnified 10x showing complete healing with a
+            slight discoloration of skin.
+          </aside>
+        </div>
       </div>
-    </div>
-  </Grid>
-</Section>
+    </Grid>
+  </Section>
+</Transition>
 
 <!-- {:else}
   <Flex direction="column" justify="center" align="center">
