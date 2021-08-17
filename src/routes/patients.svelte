@@ -28,6 +28,8 @@
   <Section boxed margin="auto" background="white" padding="0.5em 2em 4em">
     <h3 style="text-align:center;">Patients</h3>
 
+    <img src="https://source.unsplash.com/random/800x400/" alt="" />
+
     <h4>Frustrated by a chronic wound?</h4>
 
     <p>
@@ -64,3 +66,10 @@
     </p>
   </Section>
 </Transition>
+
+<style>
+  img {
+    display: block;
+    width: 100%;
+  }
+</style>

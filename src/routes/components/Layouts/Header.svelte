@@ -46,8 +46,16 @@
         <li>
           <a style="color:{linkColor};" on:click={showMobile} href="/">Home</a>
         </li>
-        <li><a style="color:{linkColor};" href="/patients/">Patients</a></li>
-        <li><a style="color:{linkColor};" href="/providers/">Providers</a></li>
+        <li>
+          <a style="color:{linkColor};" on:click={showMobile} href="/patients/"
+            >Patients</a
+          >
+        </li>
+        <li>
+          <a style="color:{linkColor};" on:click={showMobile} href="/providers/"
+            >Providers</a
+          >
+        </li>
         <li>
           <a
             style="color:{linkColor};"
@@ -56,7 +64,11 @@
           >
         </li>
         <li>
-          <a style="color:{linkColor};" href="/testimonials/">Testimonials</a>
+          <a
+            style="color:{linkColor};"
+            on:click={showMobile}
+            href="/testimonials/">Testimonials</a
+          >
         </li>
         <li>
           <a style="color:{linkColor};" on:click={showMobile} href="/contact/"
