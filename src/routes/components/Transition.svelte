@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fly } from "svelte/transition";
+  import { fade } from "svelte/transition";
 
   let show = false;
 
@@ -8,7 +8,10 @@
 </script>
 
 {#if show}
-  <div in:fly={{ x: 1000, delay: 450 }} out:fly={{ x: -1000 }}>
+  <div
+    in:fade={{ delay: 400, duration: 300 }}
+    out:fade={{ delay: 0, duration: 300 }}
+  >
     <slot />
   </div>
 {/if}
