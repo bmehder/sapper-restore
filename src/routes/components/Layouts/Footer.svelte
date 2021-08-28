@@ -1,5 +1,7 @@
 <script>
+  import Transition from "../../components/Transition.svelte";
   import Flex from "./Flex.svelte";
+
   export let background = "darkorange";
   export let color = "white";
   export let height = "";
